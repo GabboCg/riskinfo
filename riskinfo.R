@@ -21,10 +21,10 @@
 #
 # Produces: 05_smithsoJAR.csv
 
-# Auxiliary functions 
-source(file.path("R", "wd_diff.R"))
-source(file.path("R", "vol_to.R"))
-source(file.path("R", "run_ff.R"))
+# Read auxiliary functions 
+source(file.path("R", "wd-diff.R"))
+source(file.path("R", "vol-to.R"))
+source(file.path("R", "run-ff.R"))
 
 # ==========================================
 # STEPS 1–3: Build SSBase (event–firm panel)
