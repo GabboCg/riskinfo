@@ -16,9 +16,9 @@ riskinfo/
 ├── data/
 │   └── smithsoJAR.csv         # panel output: event-firm observations
 ├── R/
-│   ├── wd_diff.R              # weekday distance helper (SAS intck equivalent)
-│   ├── vol_to.R               # vol_to(), vol_to_liq()
-│   └── run_ff.R               # run_ff() — Fama-French 4-factor OLS
+│   ├── wd-diff.R              # weekday distance helper (SAS intck equivalent)
+│   ├── vol-to.R               # vol_to(), vol_to_liq()
+│   └── run-ff.R               # run_ff() — Fama-French 4-factor OLS
 ├── refs/
 │   └── Smith & So (2022, JAR)
 ├── load.R                     # entry point: packages, connection, config
